@@ -51,7 +51,7 @@ int main(){
 
       if(l_plaint >= 128)                                                          // If per controllare se la stringa supera i 128 caratteri.
       {                                                                            // Se il controllo risulterà vero, verrà fatto un azzeramento del buffer,
-        while((ch = getchar()) != '\n' && ch != EOF);                              // in modo tale che i caratteri in più non vengano usati per l'input che verrà dopo
+        while((ch = getchar()) != '\n' && ch != EOF);                              // in modo tale che i caratteri in più non vengano usati per l'input seguente
       }
 
       printf("Inserisca una chiave per cifrare la stringa: ");
