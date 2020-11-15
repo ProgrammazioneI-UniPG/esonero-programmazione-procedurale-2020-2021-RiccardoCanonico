@@ -78,7 +78,7 @@ int main(){
       printf("\nIl testo cifrato è: \n");
       for(i=0; i < l_plaint-1; i++)
       {
-        if(tcifrato[i] < 31)                                                     // If per controllare se lo cifratura con XOR ha restituito caratteri che il linguaggio non stampa
+        if(tcifrato[i] < 31)                                                     // If per controllare se la cifratura con XOR ha restituito caratteri della tabella ascii che il linguaggio non stampa
         {
           printf("c-%d ", tcifrato[i]);                                          // Di conseguenza verrano sostituiti con la stampa "c-"
         }
